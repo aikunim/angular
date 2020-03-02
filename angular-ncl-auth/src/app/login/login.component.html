@@ -1,3 +1,4 @@
+<div class="login"></div>
 <select>
     <option value="1">by login</option>
     <option value="2">by ncalayer</option>
@@ -15,3 +16,10 @@
 <h3>By NCALayer</h3>
 <label for="key">Выберите ключ</label>
 <input type="file" id="key" name="key">
+
+<ng-container *ngIf="loading">
+    <div class="loader"> </div>
+</ng-container>
+
+
+
